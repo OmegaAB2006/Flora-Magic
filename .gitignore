@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Streamlit secrets (NEVER commit real credentials)
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
